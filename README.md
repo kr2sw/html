@@ -1,8 +1,15 @@
 # html
-maze3d.html : ╧л╥нцё╠Б 3D 
-maze3d2.html : ╧л╥нцё╠Б 3D ╧л╥н ╩Щ╪╨ ╧в ╥╧╨╖ юШ©К
-php/config.php : php - mysql ев╫╨ф╝ ©╛╟А а╓╨╦
-php/db_select.php : php - mysql а╤х╦ ев╫╨ф╝ 
-php/db_select2.php : php - mysql а╤х╦ ев╫╨ф╝ 
-php/testdb1.html : php - mysql а╤х╦ ев╫╨ф╝©К html
-php/testdb1.js : php - mysql а╤х╦ ев╫╨ф╝©К js
+maze3d.html : К╞╦К║°Л╟╬Й╦╟ 3D 
+
+maze3d2.html : К╞╦К║°Л╟╬Й╦╟ 3D К╞╦К║° Л┐²Л└╠ К╟▐ К═┬К╡╗ Л═│Л ╘
+
+php/config.php : php - mysql М┘▄Л┼╓М┼╦ Л≈╟Й╡╟ Л═∙КЁ╢
+
+php/db_select.php : php - mysql Л║╟М ▄ М┘▄Л┼╓М┼╦ 
+
+php/db_select2.php : php - mysql Л║╟М ▄ М┘▄Л┼╓М┼╦ 
+
+php/testdb1.html : php - mysql Л║╟М ▄ М┘▄Л┼╓М┼╦Л ╘ html
+
+php/testdb1.js : php - mysql Л║╟М ▄ М┘▄Л┼╓М┼╦Л ╘ js
+
