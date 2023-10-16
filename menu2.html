@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <style>
+        *{padding:0;margin:0}
+        li{list-style:none}
+        a{text-decoration:none;font-size:14px}
+        .menu {
+            width: 100wh;
+            overflow: hidden;
+            cursor: pointer;
+            position: fixed;
+        }
+        .menu > li {
+            width: auto; /*20*5=100%*/
+            float: left; /* 가로 */
+            text-align: center;
+            line-height: 40px;
+            background-color: #5778ff;
+        }
+
+        .menu a {
+            color: #fff;
+        }
+        .menu p {
+            color: #fff;
+            display: inline;
+        }
+
+        .submenu > li {
+            line-height: 30px;
+            background-color: #94a9ff;
+            padding:15px;
+        }
+
+        .submenu {
+            height: 0; /*ul의 높이를 안보이게 처리*/
+            overflow: hidden;
+        }
+        .menu > li:hover {
+            background-color: #94a9ff;
+        }
+        .menu > li:hover p {
+            color:red;
+        }
+        .menu > li:hover .submenu {
+            height: 100%;
+        }
+        .submenu > li:hover {
+            background-color: #5778ff;
+        }
+    </style>
+  </head>
+  <body>
+        <!--ul.menu>(li>a{MENU$}+ul.submenu>(li>a{submenu0$})*5)*5-->
+        <!--ul.menu>(li>p{MENU$}+ul.submenu>(li>{submenu0$})*5)*5-->
+    <nav>
+        <ul class="menu">
+            <li>
+                <p>MENU1</p>
+                <ul class="submenu">
+                    <li>submenu01</li>
+                    <li>submen2</li>
+                    <li>submenu03</li>
+                    <li>submenu04</li>
+                    <li>submenu05</li>
+                </ul>
+            </li>
+            <li>
+                <p>MENU2</p>
+                <ul class="submenu">
+                    <li>submenu01</li>
+                    <li>submenu02</li>
+                    <li>submen3</li>
+                </ul>
+            </li>
+            <li>
+                <p>MENU3</p>
+                <ul class="submenu">
+                    <li>submenu01</li>
+                    <li>submenu02</li>
+                    <li>submenu03</li>
+                    <li>submenu04</li>
+                    <li>submenu05</li>
+                </ul>
+            </li>
+            <li>
+                <p>MENU4</p>
+                <ul class="submenu">
+                    <li>submenu01</li>
+                    <li>submenu02</li>
+                </ul>
+            </li>
+            <li>
+                <p>MENU5</p>
+                <ul class="submenu">
+                    <li>submenu01</li>
+                    <li>submenu02</li>
+                    <li>submenu03</li>
+                    <li>submenu04</li>
+                    <li>submenu05</li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div style="height:200vh;">
+
+    </div>
+    </body>
+    </html>
