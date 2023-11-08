@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media print{
+            header, footer, .no-print .btn_wrap { display:none }
+            .contents {padding:0}
+            * { print-color-adjust: exact };
+        }
+        .section{page-break-before:always;}
+        @page1 {size:21cm 29.7cm;margin: 15px}
+        @page {size:29.7cm 21cm;margin: 15px}
+    </style>
+</head>
+<body>
+    <p>page-break-before: [auto, inherit, always, avoid, left, right]</p>
+    <p>page-break-after: [auto, inherit, always, avoid, left, right]</p>
+    <p>page-break-after: [auto, inherit, avoid]</p>
+    <pre>
+        @page {
+            size: auto;
+            size: portrait;
+            size: landscape;
+
+            size: 6in; 
+            size: 4in 6in;
+
+            size: A4;
+            size: B5;
+            size: letter;
+
+            size: A4 portrait;
+        }
+        @page {margin:0}
+            Chrome 에서만 동작
+    </pre>
+    <a href="javascript:window.print();" class="btn_wrap">인쇄</a>
+</body>
+</html>
